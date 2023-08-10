@@ -1,0 +1,81 @@
+.gpt3__cta-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  border: 1px solid #000;
+  background: linear-gradient(90deg, #ae67fa 0%, #f49867 97.4%);
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.gpt3__cta-container__content {
+  margin: 1rem;
+}
+
+.gpt3__cta-container__content p {
+  font-size: 12px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  line-height: 30px; /* 250% */
+}
+
+.gpt3__cta-container__content h3 {
+  font-size: 24px;
+  font-family: var(--font-family);
+  font-weight: 800;
+  line-height: 45px; /* 187.5% */
+}
+
+.gpt3__cta-container__button {
+  border: none;
+  outline: none;
+}
+
+.gpt3__cta-container__button button {
+  outline: none;
+  border: none;
+  background-color: #000;
+  color: white;
+  border-radius: 40px;
+  padding: 1rem 3rem;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px; /* 166.667% */
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.gpt3__cta-container__button:hover button {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 952px) {
+  .gpt3__cta-container__content {
+    align-items: center;
+  }
+
+  .gpt3__cta-container {
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .gpt3__cta-container__content h3 {
+    font-size: 20px;
+  }
+
+  .gpt3__cta-container__content p {
+    font-size: 16px;
+  }
+
+  .gpt3__cta-container__button button {
+    font-size: 16px;
+    padding: 0.5rem 2rem;
+  }
+
+  .gpt3__cta-container__button {
+    margin-left: 0.8rem;
+  }
+}

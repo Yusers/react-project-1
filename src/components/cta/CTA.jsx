@@ -1,7 +1,19 @@
-import React from "react";
-import "./cta.css";
+import React from 'react';
+import './cta.css';
 const CTA = () => {
-  return <div>CTA</div>;
+  return (
+    <div className='gpt3__cta section_padding'>
+      <div className='gpt3__cta-container'>
+        <div className='gpt3__cta-container__content'>
+          <p>Request Early Access to Get Started</p>
+          <h3>Register today & start exploring the endless possiblities.</h3>
+        </div>
+        <div className='gpt3__cta-container__button'>
+          <button>Get Started</button>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default CTA;
